@@ -1,2 +1,2 @@
 # Deep-Learning
-Training the computer to play Atari using Machine Learning
+Training the computer to play Atari using Machine Learning in this model we will use two different types of learning to maximize the score, first being a DQN (taking various frame samples as input and seeing the output for training) and DDQN (using DQN model and another model that looks at taking the action at the next state) this allows us to look at stopping non optimal predictions that might work at the moment and in essence can help with overestimation with the model and provide a consistent result during deep learning process.
